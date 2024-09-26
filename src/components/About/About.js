@@ -6,6 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import PersonalMissionStatement from "./PersonalMissionStatement";
+import ProfessionalMissionStatement from "./ProfessionalMissionStatement.js";
 
 function About() {
   return (
@@ -22,9 +24,24 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+            Elo again! 👋 <strong className="purple"></strong>
             </h1>
             <Aboutcard />
+            <br/>
+            <br/>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Personal Mission Statement <strong className="purple"></strong>
+            </h1>
+            <PersonalMissionStatement/>
+
+            <br/>
+            <br/>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Professional Mission Statement <strong className="purple"></strong>
+            </h1>
+            <ProfessionalMissionStatement/>
+            
+            
           </Col>
           <Col
             md={5}

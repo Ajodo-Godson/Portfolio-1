@@ -1,23 +1,22 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { CgCPlusPlus} from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
+  DiDatabase,
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
+  DiMysql,
+  DiSqllite,
+  DiProlog,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
+  SiFlask,
   SiPostgresql,
+  SiLatex,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -26,43 +25,49 @@ function Techstack() {
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiDatabase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiLatex />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+      <DiMysql/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+      <DiSqllite/>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+      <DiMysql/>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+      <DiProlog/>
       </Col>
     </Row>
   );
