@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import chess from "../../Assets/Projects/chess.png";
 import sparkle from "../../Assets/Projects/sparkle.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import medibot from "../../Assets/Projects/medibot.png";
 
 function Projects() {
   return (
@@ -26,7 +26,7 @@ function Projects() {
               imgPath={sparkle}
               isBlog={false}
               title="Sparkle"
-              description="Sparkle, our game project, draws inspiration from the addictive nature of the popular idle game, Cookie Clicker. Recognizing the immense appetite for mobile gaming and the market's thirst for top-notch web3 services, we envisioned using a mobile game as a dynamic medium to fulfill this mission."
+              description="Sparkle, a game project at the CalHacks 9.0, draws inspiration from the addictive nature of the popular idle game, Cookie Clicker. Recognizing the immense appetite for mobile gaming and the market's thirst for top-notch web3 services, we envisioned using a mobile game as a dynamic medium to fulfill this mission."
               ghLink="https://github.com/Ajodo-Godson/Sparkle"
               demoLink="https://devpost.com/software/sparklers"
             />
@@ -34,23 +34,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={medibot}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Medibot"
+              description="Another team project at an Hackathon, where we applied conversational AI technology such as chatbots to benefit people, especially those who may be underprivileged or underserviced in the healthcare industry, especially when it comes to describing their ailments (which they do vaguely) to a medical practicitioner. This project helped in bridging that difficult by continously asking clarifying questions and slims it down to a medical term. I worked partly on the Backend, where I focused on the NLP algorithm where I used OpenAI for prompt engineering and sentiment analysis and Hugging Face API for similarity tests."
+              ghLink="https://github.com/Ajodo-Godson/MediBot"
+              demoLink="https://devpost.com/software/medibot-iq8lf0"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={chess}
               isBlog={false}
-              title="Editor.io"
+              title="Chess AI"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              // ghLink="https://github.com/Ajodo-Godson/Chess_AI"
+              demoLink="https://drive.google.com/file/d/1mXLa1YxlMfwv8H_Z-m8ROLZ3NHVY8Mei/view?usp=sharing"              
             />
           </Col>
 
@@ -83,7 +83,7 @@ function Projects() {
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
