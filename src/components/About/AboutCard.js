@@ -14,6 +14,7 @@ function AboutCard() {
             My name is Godson Ajodo from Nigeria. 
             I am a  I am a Computer Science and Artificial Intelligence student at <span className = "school"> <a href ="https://www.minerva.edu/">Minerva University</a> </span>
             <br /> 
+            I am a 2x Data Engineer Intern at Microsoft.
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
