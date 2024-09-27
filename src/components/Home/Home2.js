@@ -59,7 +59,7 @@ function Home2() {
               />
               <p className="experience-description">
                 In my Sophomore year, I spent my Fall semester in South Korea. My time there was filled with a lot of experiences including going to the famous Gangnam style pose sculpture, having local barbecues with friends - those made at school and also at Korea. 
-                Other wonderful moments include tyrign the lcoal dishes like Tteokbokki, Kimchi Stew, Jjajangmyeon, and every type of noodles. I also got to visit the Seoul Upcycling Plaza, where used products or objects were recycled to things of higher values. 
+                Other wonderful moments include trying the lcoal dishes like Tteokbokki, Kimchi Stew, Jjajangmyeon, and every type of noodles. I also got to visit the Seoul Upcycling Plaza, where used products or objects were recycled to things of higher values. 
               </p>
             </Col>
 
