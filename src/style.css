@@ -213,6 +213,48 @@ button:focus {
   width: 100%;
 }
 
+
+/* --------- */
+/* Tools and Stack Names */
+/* --------- */
+.stacknames {
+color: #cda1d7;
+font-size: 20px; 
+}
+
+/* --------- */
+/* City Experience */
+/* --------- */
+
+.cityExperience {
+  padding: 2rem;
+  text-align: center;
+}
+
+.cityExperience .heading {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.experience-image {
+  width: 100%;
+  max-width: 400px; 
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0 1rem;
+  color: white !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+
+
+
 /* --------- */
 /* Home section */
 /* --------- */
@@ -318,12 +360,24 @@ button:focus {
   padding-top: 9em !important;
 }
 
+.avatar-img {
+  width: 100%;
+  max-width: 400px; 
+  padding-left: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
 }
+
+
+
 
 .home-about-section {
   position: relative;
