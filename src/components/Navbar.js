@@ -14,6 +14,8 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
+import { TfiMicrosoft } from "react-icons/tfi";
+
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -75,7 +77,7 @@ function NavBar() {
                 to="/experiences"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Experiences
+                <TfiMicrosoft style={{ marginBottom: "2px" }} /> Experiences
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>

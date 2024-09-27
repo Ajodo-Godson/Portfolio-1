@@ -58,48 +58,7 @@ function Home2() {
               <p>
                 Feel free to <span className="purple">connect </span>with me
               </p>
-              <ul className="home-about-social-links">
-                <li className="social-icons">
-                  <a
-                    href="https://github.com/Ajodo-Godson"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                  >
-                    <AiFillGithub />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://www.facebook.com/prince.emmykid/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                  >
-                    <AiFillFacebook />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://www.linkedin.com/in/godson-ajodo/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                  >
-                    <FaLinkedinIn />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://www.instagram.com/ajoson.n/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour home-social-icons"
-                  >
-                    <AiFillInstagram />
-                  </a>
-                </li>
-              </ul>
+              
             </Col>
           </Row>
         </Container>
