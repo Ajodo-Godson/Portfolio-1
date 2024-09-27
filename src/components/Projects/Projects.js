@@ -2,11 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import restaurant from "../../Assets/Projects/restaurant.png";
 import chess from "../../Assets/Projects/chess.png";
 import sparkle from "../../Assets/Projects/sparkle.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import dataengineering from "../../Assets/Projects/dataengineering.png";
 import medibot from "../../Assets/Projects/medibot.png";
 
 function Projects() {
@@ -48,43 +47,31 @@ function Projects() {
               imgPath={chess}
               isBlog={false}
               title="Chess AI"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              // ghLink="https://github.com/Ajodo-Godson/Chess_AI"
+              description="Designed a chess engine using generic algorithms like Alpha-Beta pruning, Iterative Deepening and quiescence search. I used PyQt5 for the gaming interface. "
+              ghLink="https://github.com/Ajodo-Godson/Chess_AI"
               demoLink="https://drive.google.com/file/d/1mXLa1YxlMfwv8H_Z-m8ROLZ3NHVY8Mei/view?usp=sharing"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={restaurant}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Restaurant Recommendation System (CS152 Project"
+              description="Worked in a group of four to design a Restaurant recommendation system in Berlin, Germany. We used PROLOG for the logical relationships between objects, predicates and functions. I was in charge of building the GUI. I used PyQT5 for designing the desktop application. "
+              ghLink="https://github.com/Ajodo-Godson/CS152_LBA"
+              demoLink="https://github.com/Ajodo-Godson/CS152_LBA/raw/main/Resources/Demo.gif/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={dataengineering}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Microsoft: Data Engineer"
+              description="Built Pipelines to automate the process of data collection, cleaning, and other flows among multiple data stores and vendors at Microsoft. I also Wrote scripts to assist the pipeline and internal tools and data processing while Working with the gaming for sustainability engineering team in providing quality and updated data to the modeling team toproduce prediction models used to make informed decisions"
+               // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>
