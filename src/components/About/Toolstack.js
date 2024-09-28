@@ -23,13 +23,13 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
         <div className = "stacknames" >
-          Keras
+          VS Code
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
         <div className = "stacknames" >
-          Keras
+          Postman
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
