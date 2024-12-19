@@ -7,7 +7,9 @@ import chess from "../../Assets/Projects/chess.png";
 import sparkle from "../../Assets/Projects/sparkle.png";
 import dataengineering from "../../Assets/Projects/dataengineering.png";
 import medibot from "../../Assets/Projects/medibot.png";
-
+import NASASpaceApps from "../../Assets/Projects/NASASpaceApps.png";
+import TodoList from "../../Assets/Projects/TodoList.png";
+import gameexp from "../../Assets/Projects/gameexp.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -20,6 +22,36 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={NASASpaceApps}
+              isBlog={false}
+              title="NASA Space Apps"
+              description="*Back to the Present* is an interactive climate change game designed to educate players on the environmental consequences of human actions. Using real-world data and machine learning models built with TensorFlow, Keras, and Scikit-Learn, the game simulates how choices around tree planting, travel, and energy consumption affect global greenhouse gas emissions. Dynamic gameplay is enhanced by LLaMA 3.2, which generates unique text-based scenarios based on player inputs, creating an immersive and personalized experience. The project aims to simplify complex climate issues and empower players to take meaningful actions toward a sustainable future."
+              ghLink="https://github.com/Ajodo-Godson/NASASpaceAppsChallenge2024"
+              demoLink="https://youtu.be/X7NGAlDm5vQ"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TodoList}
+              isBlog={false}
+              title="Todo List"
+              description="This project is a full-stack web application, built in my CS162 class, that enables users to manage tasks hierarchically. It features user authentication for secure access, allowing users to create, update, and delete to-do lists, tasks, and subtasks organized in a nested structure up to three levels deep. Users can toggle task completion status and enjoy a responsive user interface built with React. The application provides a comprehensive task management system with an intuitive and user-friendly design."
+              ghLink="https://github.com/Ajodo-Godson/Hierarchical-To-Do-List"
+              demoLink="https://www.loom.com/share/372c4d84f3e84d37b2d4ddf5e3f8a701?sid=42610339-75b6-4a84-8df5-89c31a539332"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gameexp}
+              isBlog={false}
+              title="Game Explorer"
+              description="Game Explorer is a web application that contains a collection of simple games like Tic-tac-toe, guess the number, Minesweeper, etc. It is built with React and uses the React Router library for navigation. The application provides a comprehensive game library with an intuitive and user-friendly design."
+              ghLink="https://github.com/Ajodo-Godson/gamexp/tree/main/gameexp"
+              demoLink="https://gameexp.netlify.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={sparkle}
@@ -49,7 +81,7 @@ function Projects() {
               title="Chess AI"
               description="Designed a chess engine using generic algorithms like Alpha-Beta pruning, Iterative Deepening and quiescence search. I used PyQt5 for the gaming interface. "
               ghLink="https://github.com/Ajodo-Godson/Chess_AI"
-              demoLink="https://drive.google.com/file/d/1mXLa1YxlMfwv8H_Z-m8ROLZ3NHVY8Mei/view?usp=sharing"              
+              demoLink="https://drive.google.com/file/d/1mXLa1YxlMfwv8H_Z-m8ROLZ3NHVY8Mei/view?usp=sharing"
             />
           </Col>
 
@@ -70,8 +102,8 @@ function Projects() {
               isBlog={false}
               title="Microsoft: Data Engineer"
               description="Built Pipelines to automate the process of data collection, cleaning, and other flows among multiple data stores and vendors at Microsoft. I also Wrote scripts to assist the pipeline and internal tools and data processing while Working with the gaming for sustainability engineering team in providing quality and updated data to the modeling team toproduce prediction models used to make informed decisions"
-               // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
         </Row>
